@@ -1,0 +1,28 @@
+<div class="max-w-md mx-auto my-14 px-4">
+    <div class="border-3 border-black shadow-brutal p-8">
+        <h2 class="text-2xl font-black uppercase tracking-tight mb-2 border-b-4 border-black pb-2">Iniciar Sesión</h2>
+        <p class="text-xs font-bold uppercase tracking-widest text-gray-500 mb-6">Bienvenido de vuelta</p>
+
+        <form action="/api/auth/login" method="POST" data-ajax-form>
+            <div class="mb-4">
+                <label for="email" class="block font-bold uppercase text-xs tracking-widest mb-1">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="tu@email.com" required
+                       class="w-full border-3 border-black px-3 py-2 text-sm font-medium focus:outline-none focus:shadow-brutal-sm bg-white">
+            </div>
+            <div class="mb-6">
+                <label for="password" class="block font-bold uppercase text-xs tracking-widest mb-1">Contraseña</label>
+                <input type="password" id="password" name="password" placeholder="Tu contraseña" required
+                       class="w-full border-3 border-black px-3 py-2 text-sm font-medium focus:outline-none focus:shadow-brutal-sm bg-white">
+            </div>
+            <button type="submit"
+                    class="w-full bg-black text-white font-black uppercase tracking-widest text-sm py-3 border-3 border-black shadow-brutal hover:bg-white hover:text-black hover:shadow-brutal-lg hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all duration-100 cursor-pointer">
+                Iniciar Sesión
+            </button>
+        </form>
+
+        <hr class="border-t-3 border-black my-5">
+        <p class="text-center text-sm font-bold">
+            ¿No tienes cuenta? <a href="/register" class="font-black">Regístrate</a>
+        </p>
+    </div>
+</div>

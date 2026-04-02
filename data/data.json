@@ -1,0 +1,116 @@
+{
+  "boards": [
+    {
+      "id": 1,
+      "name": "Proyecto Principal",
+      "lists": [
+        {
+          "id": 1,
+          "name": "Backlog",
+          "estado": "Backlog",
+          "cards": [
+            {
+              "id": 5,
+              "titulo": "Optimizar consultas SQL",
+              "descripcion": "Las consultas de listado tardan más de 2 segundos en producción",
+              "prioridad": "Improvement",
+              "tag": "Hotfix",
+              "estado": "Backlog",
+              "fecha_creacion": "2025-01-08",
+              "fecha_inicio": "2025-01-14",
+              "fecha_fin": "2025-01-21",
+              "autor": "Ana García",
+              "responsable": "Ana García"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Doing",
+          "estado": "Doing",
+          "cards": [
+            {
+              "id": 3,
+              "titulo": "Desarrollar API REST",
+              "descripcion": "Endpoints para usuarios y tareas con autenticación JWT",
+              "prioridad": "Feature",
+              "tag": "Feature",
+              "estado": "Doing",
+              "fecha_creacion": "2025-01-12",
+              "fecha_inicio": "2025-01-18",
+              "fecha_fin": "2025-02-05",
+              "autor": "Carlos López",
+              "responsable": "Carlos López"
+            },
+            {
+              "id": 1,
+              "titulo": "Diseñar interfaz de usuario",
+              "descripcion": "Crear mockups en Figma para todas las pantallas del sistema",
+              "prioridad": "Feature",
+              "tag": "Feature",
+              "estado": "Doing",
+              "fecha_creacion": "2025-01-10",
+              "fecha_inicio": "2025-01-15",
+              "fecha_fin": "2025-01-25",
+              "autor": "Ana García",
+              "responsable": "Carlos López"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Review",
+          "estado": "Review",
+          "cards": [
+            {
+              "id": 4,
+              "titulo": "Corregir error de login",
+              "descripcion": "El token no se invalida correctamente al cerrar sesión",
+              "prioridad": "Bug",
+              "tag": "Bug",
+              "estado": "Review",
+              "fecha_creacion": "2025-01-15",
+              "fecha_inicio": "2025-01-16",
+              "fecha_fin": "2025-01-18",
+              "autor": "María Pérez",
+              "responsable": "María Pérez"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Done",
+          "estado": "Done",
+          "cards": [
+            {
+              "id": 6,
+              "titulo": "Configurar proyecto Node.js",
+              "descripcion": "Inicializar repositorio, instalar Express y configurar estructura base",
+              "prioridad": "Task",
+              "tag": "Feature",
+              "estado": "Done",
+              "fecha_creacion": "2025-01-05",
+              "fecha_inicio": "2025-01-06",
+              "fecha_fin": "2025-01-08",
+              "autor": "Carlos López",
+              "responsable": "Carlos López"
+            },
+            {
+              "id": 2,
+              "titulo": "Configurar base de datos",
+              "descripcion": "Instalar y configurar PostgreSQL con esquema inicial",
+              "prioridad": "Task",
+              "tag": "Feature",
+              "estado": "Done",
+              "fecha_creacion": "2025-01-10",
+              "fecha_inicio": "2025-01-20",
+              "fecha_fin": "2025-01-30",
+              "autor": "Ana García",
+              "responsable": "María Pérez"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

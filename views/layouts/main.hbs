@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KanbanPro</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class="bg-white text-black font-sans min-h-screen flex flex-col">
+
+    <header class="bg-black text-white px-6 py-4 border-b-4 border-black" style="view-transition-name: site-header;">
+        <div class="flex items-center justify-between max-w-7xl mx-auto">
+            <a href="/" class="text-white font-black text-2xl uppercase tracking-tight no-underline hover:no-underline" style="background:none;padding:0;">KanbanPro</a>
+            <nav class="flex gap-1 flex-wrap">
+                <a href="/" class="text-white font-bold uppercase text-xs tracking-widest px-3 py-2 border-2 border-transparent hover:border-white hover:bg-white hover:text-black transition-all duration-100">Inicio</a>
+                <a href="/dashboard" class="text-white font-bold uppercase text-xs tracking-widest px-3 py-2 border-2 border-transparent hover:border-white hover:bg-white hover:text-black transition-all duration-100">Dashboard</a>
+                <a href="/login" class="text-white font-bold uppercase text-xs tracking-widest px-3 py-2 border-2 border-transparent hover:border-white hover:bg-white hover:text-black transition-all duration-100">Login</a>
+                <a href="/register" class="text-white font-bold uppercase text-xs tracking-widest px-3 py-2 border-2 border-transparent hover:border-white hover:bg-white hover:text-black transition-all duration-100">Registro</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-1" style="view-transition-name: main-content;">
+        {{{body}}}
+    </main>
+
+    <footer class="bg-black text-white px-6 py-6 border-t-4 border-black mt-auto">
+        <div class="max-w-7xl mx-auto flex items-center justify-between flex-wrap gap-2">
+            <p class="font-black uppercase tracking-widest text-xs m-0">&copy; 2025 KanbanPro</p>
+            <p class="font-bold uppercase tracking-widest text-xs m-0">Express + Handlebars + Tailwind</p>
+        </div>
+    </footer>
+
+    <script src="/gsap/dist/gsap.min.js"></script>
+    <script src="/gsap/dist/Draggable.min.js"></script>
+    <script src="/kanban.js"></script>
+</body>
+</html>
